@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Bahij_TheSansArabic-Bold.ttf</string>
+		<string>Bahij_TheSansArabic-ExtraLight.ttf</string>
+		<string>Bahij_TheSansArabic-Light.ttf</string>
+		<string>Bahij_TheSansArabic-Plain.ttf</string>
+		<string>Bahij_TheSansArabic-SemiBold.ttf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

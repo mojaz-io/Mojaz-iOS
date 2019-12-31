@@ -3,27 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E20BE7C23A8C5AB0008C571 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1E20BE7B23A8C5AB0008C571 /* Lottie */; };
+		1E20BE7E23A8C7840008C571 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20BE7D23A8C7840008C571 /* LottieView.swift */; };
+		1E20BE8123A8C9980008C571 /* logo-lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E20BE8023A8C9980008C571 /* logo-lottie.json */; };
+		1E40363123BA7DA9008F8DDD /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E40363023BA7DA9008F8DDD /* SpinnerView.swift */; };
+		1E40363323BA8D74008F8DDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E40363223BA8D74008F8DDD /* ContentView.swift */; };
 		1E5DDDDE23A7DF2C001588C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DDDDD23A7DF2C001588C8 /* AppDelegate.swift */; };
 		1E5DDDE023A7DF2C001588C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DDDDF23A7DF2C001588C8 /* SceneDelegate.swift */; };
-		1E5DDDE223A7DF2D001588C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DDDE123A7DF2D001588C8 /* ContentView.swift */; };
+		1E5DDDE223A7DF2D001588C8 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DDDE123A7DF2D001588C8 /* SplashView.swift */; };
 		1E5DDDE423A7DF2F001588C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5DDDE323A7DF2F001588C8 /* Assets.xcassets */; };
 		1E5DDDE723A7DF2F001588C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5DDDE623A7DF2F001588C8 /* Preview Assets.xcassets */; };
 		1E5DDDEA23A7DF2F001588C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5DDDE823A7DF2F001588C8 /* LaunchScreen.storyboard */; };
+		1EAC6D7623BA1D4E00DBD00D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC6D7523BA1D4E00DBD00D /* Theme.swift */; };
+		1EB9D5E923A7F8CE00946A1F /* Bahij_TheSansArabic-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9D5E523A7F89C00946A1F /* Bahij_TheSansArabic-ExtraLight.ttf */; };
+		1EB9D5EA23A7F8D100946A1F /* Bahij_TheSansArabic-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9D5E823A7F8BD00946A1F /* Bahij_TheSansArabic-SemiBold.ttf */; };
+		1EB9D5EB23A7F8D400946A1F /* Bahij_TheSansArabic-Plain.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9D5E723A7F8B300946A1F /* Bahij_TheSansArabic-Plain.ttf */; };
+		1EB9D5EC23A7F8D700946A1F /* Bahij_TheSansArabic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9D5E623A7F8AA00946A1F /* Bahij_TheSansArabic-Light.ttf */; };
+		1EB9D5ED23A7F8DA00946A1F /* Bahij_TheSansArabic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9D5E423A7F88B00946A1F /* Bahij_TheSansArabic-Bold.ttf */; };
+		1EFD230023A9656900085F00 /* coffee-lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD22FE23A9656800085F00 /* coffee-lottie.json */; };
+		1EFD230123A9656900085F00 /* loving-lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD22FF23A9656900085F00 /* loving-lottie.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E20BE7D23A8C7840008C571 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		1E20BE8023A8C9980008C571 /* logo-lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "logo-lottie.json"; sourceTree = "<group>"; };
+		1E40363023BA7DA9008F8DDD /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		1E40363223BA8D74008F8DDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E5DDDDA23A7DF2C001588C8 /* Mojaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mojaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5DDDDD23A7DF2C001588C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E5DDDDF23A7DF2C001588C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E5DDDE123A7DF2D001588C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E5DDDE123A7DF2D001588C8 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		1E5DDDE323A7DF2F001588C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E5DDDE623A7DF2F001588C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E5DDDE923A7DF2F001588C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E5DDDEB23A7DF2F001588C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAC6D7523BA1D4E00DBD00D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1EB9D5E423A7F88B00946A1F /* Bahij_TheSansArabic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bahij_TheSansArabic-Bold.ttf"; sourceTree = "<group>"; };
+		1EB9D5E523A7F89C00946A1F /* Bahij_TheSansArabic-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bahij_TheSansArabic-ExtraLight.ttf"; sourceTree = "<group>"; };
+		1EB9D5E623A7F8AA00946A1F /* Bahij_TheSansArabic-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bahij_TheSansArabic-Light.ttf"; sourceTree = "<group>"; };
+		1EB9D5E723A7F8B300946A1F /* Bahij_TheSansArabic-Plain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bahij_TheSansArabic-Plain.ttf"; sourceTree = "<group>"; };
+		1EB9D5E823A7F8BD00946A1F /* Bahij_TheSansArabic-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bahij_TheSansArabic-SemiBold.ttf"; sourceTree = "<group>"; };
+		1EFD22FE23A9656800085F00 /* coffee-lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "coffee-lottie.json"; sourceTree = "<group>"; };
+		1EFD22FF23A9656900085F00 /* loving-lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loving-lottie.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +56,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E20BE7C23A8C5AB0008C571 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E20BE7F23A8C9890008C571 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				1EFD22FE23A9656800085F00 /* coffee-lottie.json */,
+				1EFD22FF23A9656900085F00 /* loving-lottie.json */,
+				1E20BE8023A8C9980008C571 /* logo-lottie.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		1E40362F23BA7D98008F8DDD /* Representable */ = {
+			isa = PBXGroup;
+			children = (
+				1E40363023BA7DA9008F8DDD /* SpinnerView.swift */,
+			);
+			path = Representable;
+			sourceTree = "<group>";
+		};
 		1E5DDDD123A7DF2C001588C8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +100,19 @@
 		1E5DDDDC23A7DF2C001588C8 /* Mojaz */ = {
 			isa = PBXGroup;
 			children = (
+				1E40362F23BA7D98008F8DDD /* Representable */,
+				1E20BE7F23A8C9890008C571 /* Animations */,
+				1EB9D5E323A7F86700946A1F /* Fonts */,
 				1E5DDDDD23A7DF2C001588C8 /* AppDelegate.swift */,
 				1E5DDDDF23A7DF2C001588C8 /* SceneDelegate.swift */,
-				1E5DDDE123A7DF2D001588C8 /* ContentView.swift */,
+				1E5DDDE123A7DF2D001588C8 /* SplashView.swift */,
 				1E5DDDE323A7DF2F001588C8 /* Assets.xcassets */,
 				1E5DDDE823A7DF2F001588C8 /* LaunchScreen.storyboard */,
 				1E5DDDEB23A7DF2F001588C8 /* Info.plist */,
 				1E5DDDE523A7DF2F001588C8 /* Preview Content */,
+				1E20BE7D23A8C7840008C571 /* LottieView.swift */,
+				1EAC6D7523BA1D4E00DBD00D /* Theme.swift */,
+				1E40363223BA8D74008F8DDD /* ContentView.swift */,
 			);
 			path = Mojaz;
 			sourceTree = "<group>";
@@ -73,6 +123,18 @@
 				1E5DDDE623A7DF2F001588C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EB9D5E323A7F86700946A1F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1EB9D5E523A7F89C00946A1F /* Bahij_TheSansArabic-ExtraLight.ttf */,
+				1EB9D5E823A7F8BD00946A1F /* Bahij_TheSansArabic-SemiBold.ttf */,
+				1EB9D5E723A7F8B300946A1F /* Bahij_TheSansArabic-Plain.ttf */,
+				1EB9D5E623A7F8AA00946A1F /* Bahij_TheSansArabic-Light.ttf */,
+				1EB9D5E423A7F88B00946A1F /* Bahij_TheSansArabic-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +153,9 @@
 			dependencies = (
 			);
 			name = Mojaz;
+			packageProductDependencies = (
+				1E20BE7B23A8C5AB0008C571 /* Lottie */,
+			);
 			productName = Mojaz;
 			productReference = 1E5DDDDA23A7DF2C001588C8 /* Mojaz.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +184,9 @@
 				Base,
 			);
 			mainGroup = 1E5DDDD123A7DF2C001588C8;
+			packageReferences = (
+				1E20BE7A23A8C5AB0008C571 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 1E5DDDDB23A7DF2C001588C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,9 +201,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFD230023A9656900085F00 /* coffee-lottie.json in Resources */,
+				1EB9D5E923A7F8CE00946A1F /* Bahij_TheSansArabic-ExtraLight.ttf in Resources */,
 				1E5DDDEA23A7DF2F001588C8 /* LaunchScreen.storyboard in Resources */,
 				1E5DDDE723A7DF2F001588C8 /* Preview Assets.xcassets in Resources */,
+				1E20BE8123A8C9980008C571 /* logo-lottie.json in Resources */,
+				1EFD230123A9656900085F00 /* loving-lottie.json in Resources */,
+				1EB9D5ED23A7F8DA00946A1F /* Bahij_TheSansArabic-Bold.ttf in Resources */,
+				1EB9D5EB23A7F8D400946A1F /* Bahij_TheSansArabic-Plain.ttf in Resources */,
 				1E5DDDE423A7DF2F001588C8 /* Assets.xcassets in Resources */,
+				1EB9D5EC23A7F8D700946A1F /* Bahij_TheSansArabic-Light.ttf in Resources */,
+				1EB9D5EA23A7F8D100946A1F /* Bahij_TheSansArabic-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +224,11 @@
 			files = (
 				1E5DDDDE23A7DF2C001588C8 /* AppDelegate.swift in Sources */,
 				1E5DDDE023A7DF2C001588C8 /* SceneDelegate.swift in Sources */,
-				1E5DDDE223A7DF2D001588C8 /* ContentView.swift in Sources */,
+				1E40363323BA8D74008F8DDD /* ContentView.swift in Sources */,
+				1EAC6D7623BA1D4E00DBD00D /* Theme.swift in Sources */,
+				1E5DDDE223A7DF2D001588C8 /* SplashView.swift in Sources */,
+				1E40363123BA7DA9008F8DDD /* SpinnerView.swift in Sources */,
+				1E20BE7E23A8C7840008C571 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +422,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E20BE7A23A8C5AB0008C571 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E20BE7B23A8C5AB0008C571 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E20BE7A23A8C5AB0008C571 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E5DDDD223A7DF2C001588C8 /* Project object */;
 }
