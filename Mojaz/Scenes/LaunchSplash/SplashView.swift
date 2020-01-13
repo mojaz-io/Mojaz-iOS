@@ -7,19 +7,21 @@
 //
 
 import SwiftUI
+import MojazCore
 
 struct SplashView: View {
     @State private var isActive = false
-    let login = ContentView()
+    
+    let render: SplashRender
+    let theme: Theme
     
     var body: some View {
-        NavigationView {
             VStack(alignment: .center) {
                 Spacer()
                 LottieView(filename: "logo-lottie")
                     .frame(width: 183, height: 73)
                 Text("أخبار لك أنت. لا داعي للنشرة.")
-                    .font(Theme.Fonts.onBoardingContent.font)
+                    .font(theme.getFont(type: .plain, size: 14.0))
                 Spacer()
                 SpinnerView()
                 Spacer()
@@ -28,23 +30,26 @@ struct SplashView: View {
                     .aspectRatio(contentMode: .fit)
             }.edgesIgnoringSafeArea(.bottom)
             .onAppear(perform: {
-                self.gotoLoginScreen(time: 2.5)
+                self.goToBoarding(time: 2.5)
             })
-        }
     }
     
-    func gotoLoginScreen(time: Double) {
+    func goToBoarding(time: Double) {
         DispatchQueue.main.asyncAfter(deadline: .now() + Double(time)) {
-            let scene = UIApplication.shared.connectedScenes.first
-            if let sd : SceneDelegate = (scene?.delegate as? SceneDelegate) {
-                sd.set(rootViewTo: self.login)
-            }
+            self.render.onBoarding()
         }
     }
 }
 
 struct SplashView_Previews: PreviewProvider {
     static var previews: some View {
-        SplashView()
+        SplashView(
+            render: SplashRender(
+                parent: SceneRender(
+                    core: AppCore()
+                )
+            ),
+            theme: AppCore().dependency()
+        )
     }
 }

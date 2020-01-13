@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0D1E9623BBC870000F4243 /* MojazCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1E0D1E9523BBC870000F4243 /* MojazCore */; };
+		1E0D1E9B23BBCE35000F4243 /* LoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D1E9A23BBCE35000F4243 /* LoggerPlugin.swift */; };
+		1E0D1E9D23BBD48F000F4243 /* AppCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D1E9C23BBD48F000F4243 /* AppCore.swift */; };
+		1E0D1EA023BBD5F0000F4243 /* DefaultTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D1E9F23BBD5F0000F4243 /* DefaultTheme.swift */; };
 		1E20BE7C23A8C5AB0008C571 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1E20BE7B23A8C5AB0008C571 /* Lottie */; };
 		1E20BE7E23A8C7840008C571 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20BE7D23A8C7840008C571 /* LottieView.swift */; };
 		1E20BE8123A8C9980008C571 /* logo-lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E20BE8023A8C9980008C571 /* logo-lottie.json */; };
 		1E40363123BA7DA9008F8DDD /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E40363023BA7DA9008F8DDD /* SpinnerView.swift */; };
-		1E40363323BA8D74008F8DDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E40363223BA8D74008F8DDD /* ContentView.swift */; };
+		1E40363323BA8D74008F8DDD /* OnBoardingNoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E40363223BA8D74008F8DDD /* OnBoardingNoticeView.swift */; };
 		1E5DDDDE23A7DF2C001588C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DDDDD23A7DF2C001588C8 /* AppDelegate.swift */; };
 		1E5DDDE023A7DF2C001588C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DDDDF23A7DF2C001588C8 /* SceneDelegate.swift */; };
 		1E5DDDE223A7DF2D001588C8 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DDDE123A7DF2D001588C8 /* SplashView.swift */; };
@@ -24,15 +28,32 @@
 		1EB9D5EB23A7F8D400946A1F /* Bahij_TheSansArabic-Plain.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9D5E723A7F8B300946A1F /* Bahij_TheSansArabic-Plain.ttf */; };
 		1EB9D5EC23A7F8D700946A1F /* Bahij_TheSansArabic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9D5E623A7F8AA00946A1F /* Bahij_TheSansArabic-Light.ttf */; };
 		1EB9D5ED23A7F8DA00946A1F /* Bahij_TheSansArabic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EB9D5E423A7F88B00946A1F /* Bahij_TheSansArabic-Bold.ttf */; };
+		1EC949D223BD0E3B0094F02A /* SplashRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949D123BD0E3B0094F02A /* SplashRender.swift */; };
+		1EC949D623BD0F9B0094F02A /* RenderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949D523BD0F9B0094F02A /* RenderType.swift */; };
+		1EC949D823BD10150094F02A /* SceneRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949D723BD10150094F02A /* SceneRender.swift */; };
+		1EC949DB23BDE8FD0094F02A /* OnBoardingRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949DA23BDE8FD0094F02A /* OnBoardingRender.swift */; };
+		1EC949DD23BE5AA90094F02A /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC949DC23BE5AA90094F02A /* Theme.xcassets */; };
+		1EC949E023BE69950094F02A /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949DF23BE69950094F02A /* PrimaryButtonStyle.swift */; };
+		1EC949E223BE7A2E0094F02A /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949E123BE7A2E0094F02A /* RoundedCorners.swift */; };
+		1EC949E423BF8DD20094F02A /* ButtonBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949E323BF8DD20094F02A /* ButtonBottomView.swift */; };
+		1EC949E623BF9A810094F02A /* OnBoardingTopicSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949E523BF9A810094F02A /* OnBoardingTopicSelectionView.swift */; };
+		1EC949E823BFAC210094F02A /* OnBoardingMotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949E723BFAC210094F02A /* OnBoardingMotherView.swift */; };
+		1EC949EA23BFB0720094F02A /* OnBoardingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949E923BFB0720094F02A /* OnBoardingRouter.swift */; };
+		1EC949ED23BFC7000094F02A /* LaunchMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949EC23BFC7000094F02A /* LaunchMainView.swift */; };
+		1EC949EF23BFC9E00094F02A /* LaunchMainRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949EE23BFC9E00094F02A /* LaunchMainRender.swift */; };
+		1EC949F123C0DCD80094F02A /* LaunchMainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC949F023C0DCD80094F02A /* LaunchMainRouter.swift */; };
 		1EFD230023A9656900085F00 /* coffee-lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD22FE23A9656800085F00 /* coffee-lottie.json */; };
 		1EFD230123A9656900085F00 /* loving-lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD22FF23A9656900085F00 /* loving-lottie.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E0D1E9A23BBCE35000F4243 /* LoggerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerPlugin.swift; sourceTree = "<group>"; };
+		1E0D1E9C23BBD48F000F4243 /* AppCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCore.swift; sourceTree = "<group>"; };
+		1E0D1E9F23BBD5F0000F4243 /* DefaultTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTheme.swift; sourceTree = "<group>"; };
 		1E20BE7D23A8C7840008C571 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		1E20BE8023A8C9980008C571 /* logo-lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "logo-lottie.json"; sourceTree = "<group>"; };
 		1E40363023BA7DA9008F8DDD /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
-		1E40363223BA8D74008F8DDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E40363223BA8D74008F8DDD /* OnBoardingNoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingNoticeView.swift; sourceTree = "<group>"; };
 		1E5DDDDA23A7DF2C001588C8 /* Mojaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mojaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5DDDDD23A7DF2C001588C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E5DDDDF23A7DF2C001588C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +68,20 @@
 		1EB9D5E623A7F8AA00946A1F /* Bahij_TheSansArabic-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bahij_TheSansArabic-Light.ttf"; sourceTree = "<group>"; };
 		1EB9D5E723A7F8B300946A1F /* Bahij_TheSansArabic-Plain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bahij_TheSansArabic-Plain.ttf"; sourceTree = "<group>"; };
 		1EB9D5E823A7F8BD00946A1F /* Bahij_TheSansArabic-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bahij_TheSansArabic-SemiBold.ttf"; sourceTree = "<group>"; };
+		1EC949D123BD0E3B0094F02A /* SplashRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRender.swift; sourceTree = "<group>"; };
+		1EC949D523BD0F9B0094F02A /* RenderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderType.swift; sourceTree = "<group>"; };
+		1EC949D723BD10150094F02A /* SceneRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneRender.swift; sourceTree = "<group>"; };
+		1EC949DA23BDE8FD0094F02A /* OnBoardingRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingRender.swift; sourceTree = "<group>"; };
+		1EC949DC23BE5AA90094F02A /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		1EC949DF23BE69950094F02A /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		1EC949E123BE7A2E0094F02A /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		1EC949E323BF8DD20094F02A /* ButtonBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBottomView.swift; sourceTree = "<group>"; };
+		1EC949E523BF9A810094F02A /* OnBoardingTopicSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingTopicSelectionView.swift; sourceTree = "<group>"; };
+		1EC949E723BFAC210094F02A /* OnBoardingMotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingMotherView.swift; sourceTree = "<group>"; };
+		1EC949E923BFB0720094F02A /* OnBoardingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingRouter.swift; sourceTree = "<group>"; };
+		1EC949EC23BFC7000094F02A /* LaunchMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchMainView.swift; sourceTree = "<group>"; };
+		1EC949EE23BFC9E00094F02A /* LaunchMainRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchMainRender.swift; sourceTree = "<group>"; };
+		1EC949F023C0DCD80094F02A /* LaunchMainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchMainRouter.swift; sourceTree = "<group>"; };
 		1EFD22FE23A9656800085F00 /* coffee-lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "coffee-lottie.json"; sourceTree = "<group>"; };
 		1EFD22FF23A9656900085F00 /* loving-lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loving-lottie.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,12 +92,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E20BE7C23A8C5AB0008C571 /* Lottie in Frameworks */,
+				1E0D1E9623BBC870000F4243 /* MojazCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E0D1E9423BBC870000F4243 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E0D1E9723BBCE04000F4243 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1EC949D423BD0F910094F02A /* View */,
+				1E0D1E9E23BBD568000F4243 /* Styles */,
+				1E0D1E9823BBCE0F000F4243 /* Application */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1E0D1E9823BBCE0F000F4243 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1E0D1E9923BBCE1A000F4243 /* Plugins */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1E0D1E9923BBCE1A000F4243 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				1E0D1E9A23BBCE35000F4243 /* LoggerPlugin.swift */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		1E0D1E9E23BBD568000F4243 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				1E0D1E9F23BBD5F0000F4243 /* DefaultTheme.swift */,
+				1EC949DC23BE5AA90094F02A /* Theme.xcassets */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		1E20BE7F23A8C9890008C571 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +164,7 @@
 			children = (
 				1E5DDDDC23A7DF2C001588C8 /* Mojaz */,
 				1E5DDDDB23A7DF2C001588C8 /* Products */,
+				1E0D1E9423BBC870000F4243 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,19 +179,21 @@
 		1E5DDDDC23A7DF2C001588C8 /* Mojaz */ = {
 			isa = PBXGroup;
 			children = (
+				1EC949CF23BD0DA80094F02A /* Scenes */,
+				1E0D1E9723BBCE04000F4243 /* Common */,
 				1E40362F23BA7D98008F8DDD /* Representable */,
 				1E20BE7F23A8C9890008C571 /* Animations */,
 				1EB9D5E323A7F86700946A1F /* Fonts */,
 				1E5DDDDD23A7DF2C001588C8 /* AppDelegate.swift */,
 				1E5DDDDF23A7DF2C001588C8 /* SceneDelegate.swift */,
-				1E5DDDE123A7DF2D001588C8 /* SplashView.swift */,
 				1E5DDDE323A7DF2F001588C8 /* Assets.xcassets */,
 				1E5DDDE823A7DF2F001588C8 /* LaunchScreen.storyboard */,
 				1E5DDDEB23A7DF2F001588C8 /* Info.plist */,
 				1E5DDDE523A7DF2F001588C8 /* Preview Content */,
 				1E20BE7D23A8C7840008C571 /* LottieView.swift */,
 				1EAC6D7523BA1D4E00DBD00D /* Theme.swift */,
-				1E40363223BA8D74008F8DDD /* ContentView.swift */,
+				1E0D1E9C23BBD48F000F4243 /* AppCore.swift */,
+				1EC949D723BD10150094F02A /* SceneRender.swift */,
 			);
 			path = Mojaz;
 			sourceTree = "<group>";
@@ -137,6 +218,66 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		1EC949CF23BD0DA80094F02A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1EC949EB23BFC6E10094F02A /* LaunchMain */,
+				1EC949D923BDE1390094F02A /* OnBoarding */,
+				1EC949D023BD0DDD0094F02A /* LaunchSplash */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1EC949D023BD0DDD0094F02A /* LaunchSplash */ = {
+			isa = PBXGroup;
+			children = (
+				1E5DDDE123A7DF2D001588C8 /* SplashView.swift */,
+				1EC949D123BD0E3B0094F02A /* SplashRender.swift */,
+			);
+			path = LaunchSplash;
+			sourceTree = "<group>";
+		};
+		1EC949D423BD0F910094F02A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EC949DE23BE69610094F02A /* Buttons */,
+				1EC949D523BD0F9B0094F02A /* RenderType.swift */,
+				1EC949E123BE7A2E0094F02A /* RoundedCorners.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EC949D923BDE1390094F02A /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				1E40363223BA8D74008F8DDD /* OnBoardingNoticeView.swift */,
+				1EC949DA23BDE8FD0094F02A /* OnBoardingRender.swift */,
+				1EC949E523BF9A810094F02A /* OnBoardingTopicSelectionView.swift */,
+				1EC949E723BFAC210094F02A /* OnBoardingMotherView.swift */,
+				1EC949E923BFB0720094F02A /* OnBoardingRouter.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		1EC949DE23BE69610094F02A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1EC949DF23BE69950094F02A /* PrimaryButtonStyle.swift */,
+				1EC949E323BF8DD20094F02A /* ButtonBottomView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		1EC949EB23BFC6E10094F02A /* LaunchMain */ = {
+			isa = PBXGroup;
+			children = (
+				1EC949EC23BFC7000094F02A /* LaunchMainView.swift */,
+				1EC949EE23BFC9E00094F02A /* LaunchMainRender.swift */,
+				1EC949F023C0DCD80094F02A /* LaunchMainRouter.swift */,
+			);
+			path = LaunchMain;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +296,7 @@
 			name = Mojaz;
 			packageProductDependencies = (
 				1E20BE7B23A8C5AB0008C571 /* Lottie */,
+				1E0D1E9523BBC870000F4243 /* MojazCore */,
 			);
 			productName = Mojaz;
 			productReference = 1E5DDDDA23A7DF2C001588C8 /* Mojaz.app */;
@@ -210,6 +352,7 @@
 				1EB9D5ED23A7F8DA00946A1F /* Bahij_TheSansArabic-Bold.ttf in Resources */,
 				1EB9D5EB23A7F8D400946A1F /* Bahij_TheSansArabic-Plain.ttf in Resources */,
 				1E5DDDE423A7DF2F001588C8 /* Assets.xcassets in Resources */,
+				1EC949DD23BE5AA90094F02A /* Theme.xcassets in Resources */,
 				1EB9D5EC23A7F8D700946A1F /* Bahij_TheSansArabic-Light.ttf in Resources */,
 				1EB9D5EA23A7F8D100946A1F /* Bahij_TheSansArabic-SemiBold.ttf in Resources */,
 			);
@@ -222,10 +365,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0D1E9D23BBD48F000F4243 /* AppCore.swift in Sources */,
+				1EC949EF23BFC9E00094F02A /* LaunchMainRender.swift in Sources */,
+				1EC949E823BFAC210094F02A /* OnBoardingMotherView.swift in Sources */,
+				1EC949E023BE69950094F02A /* PrimaryButtonStyle.swift in Sources */,
+				1EC949D623BD0F9B0094F02A /* RenderType.swift in Sources */,
 				1E5DDDDE23A7DF2C001588C8 /* AppDelegate.swift in Sources */,
+				1EC949EA23BFB0720094F02A /* OnBoardingRouter.swift in Sources */,
+				1EC949E423BF8DD20094F02A /* ButtonBottomView.swift in Sources */,
+				1EC949D823BD10150094F02A /* SceneRender.swift in Sources */,
+				1EC949E623BF9A810094F02A /* OnBoardingTopicSelectionView.swift in Sources */,
 				1E5DDDE023A7DF2C001588C8 /* SceneDelegate.swift in Sources */,
-				1E40363323BA8D74008F8DDD /* ContentView.swift in Sources */,
+				1E40363323BA8D74008F8DDD /* OnBoardingNoticeView.swift in Sources */,
+				1EC949D223BD0E3B0094F02A /* SplashRender.swift in Sources */,
 				1EAC6D7623BA1D4E00DBD00D /* Theme.swift in Sources */,
+				1EC949DB23BDE8FD0094F02A /* OnBoardingRender.swift in Sources */,
+				1EC949ED23BFC7000094F02A /* LaunchMainView.swift in Sources */,
+				1EC949F123C0DCD80094F02A /* LaunchMainRouter.swift in Sources */,
+				1E0D1EA023BBD5F0000F4243 /* DefaultTheme.swift in Sources */,
+				1E0D1E9B23BBCE35000F4243 /* LoggerPlugin.swift in Sources */,
+				1EC949E223BE7A2E0094F02A /* RoundedCorners.swift in Sources */,
 				1E5DDDE223A7DF2D001588C8 /* SplashView.swift in Sources */,
 				1E40363123BA7DA9008F8DDD /* SpinnerView.swift in Sources */,
 				1E20BE7E23A8C7840008C571 /* LottieView.swift in Sources */,
@@ -435,6 +594,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1E0D1E9523BBC870000F4243 /* MojazCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MojazCore;
+		};
 		1E20BE7B23A8C5AB0008C571 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1E20BE7A23A8C5AB0008C571 /* XCRemoteSwiftPackageReference "lottie-ios" */;

@@ -8,15 +8,15 @@
 
 import SwiftUI
 
-struct Theme {
-    enum Fonts {
-        case onBoardingContent
-        
-        var font: Font {
-            switch self {
-            case .onBoardingContent:
-                return Font.custom("BahijTheSansArabic-Plain", size: 14.0)
-            }
-        }
-    }
-}
+//struct TTTheme {
+//    enum Fonts {
+//        case onBoardingContent
+//        
+//        var font: Font {
+//            switch self {
+//            case .onBoardingContent:
+//                return Font.custom("BahijTheSansArabic-Plain", size: 14.0)
+//            }
+//        }
+//    }
+//}
